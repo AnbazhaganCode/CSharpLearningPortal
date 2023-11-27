@@ -1,10 +1,10 @@
 # CSharpLearningPortal
 This product was useful to learn CSharp. 
 
-How to use this project.
----------------------------------------------------------------
-Code snippet:
----------------------------------------------------------------
+# How to use this project.
+
+# Code snippet:
+
 using System;
 
 using CSharpLearningPortal;
@@ -32,9 +32,9 @@ using CSharpLearningPortal;
 
         }
     }
- --------------------------------------------------------------
- Output
- --------------------------------------------------------------
+ 
+ # Output
+ 
   *******************************
  *   Welcome to Anbu theater!  *
  *******************************
