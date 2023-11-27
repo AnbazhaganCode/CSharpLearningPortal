@@ -10,10 +10,6 @@ using System;
 using CSharpLearningPortal;
 
 
-namespace YourNamespace
-
-{
-
     public class HelloWorld
     
     {
@@ -35,8 +31,6 @@ namespace YourNamespace
             
 
         }
-        
-    }
     
 }
  --------------------------------------------------------------
