@@ -5,13 +5,26 @@ How to use this project.
 ---------------------------------------------------------------
 Code snippet:
 ---------------------------------------------------------------
- CSharpLearningPortalObj cSharp = new CSharpLearningPortalObj();
+using System;
+using CSharpLearningPortal;
 
- SlowLearner slowLearner = cSharp.slowLearner;
+namespace YourNamespace
+{
+    public class HelloWorld
+    {
+        public static void Main(string[] args)
+        {
+            CSharpLearningPortalObj cSharp = new CSharpLearningPortalObj();
 
- console console = slowLearner.console;
- 
- console.Project_TeaterTicketMenu();
+            SlowLearner slowLearner = cSharp.slowLearner;
+
+            console console = slowLearner.console;
+            
+            console.Project_TeaterTicketMenu();
+
+        }
+    }
+}
  --------------------------------------------------------------
  Output
  --------------------------------------------------------------
