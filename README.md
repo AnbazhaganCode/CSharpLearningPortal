@@ -9,22 +9,35 @@ using System;
 
 using CSharpLearningPortal;
 
+
 namespace YourNamespace
+
 {
+
     public class HelloWorld
+    
     {
+    
         public static void Main(string[] args)
+        
         {
+        
             CSharpLearningPortalObj cSharp = new CSharpLearningPortalObj();
+            
 
             SlowLearner slowLearner = cSharp.slowLearner;
+            
 
             console console = slowLearner.console;
             
+            
             console.Project_TeaterTicketMenu();
+            
 
         }
+        
     }
+    
 }
  --------------------------------------------------------------
  Output
