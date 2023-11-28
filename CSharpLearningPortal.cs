@@ -10,8 +10,8 @@ namespace CSharpLearningPortal
     {
 
         private SlowLearner _slowLearner = new SlowLearner();
-        private MediumFastLearner _mediumFastLearner;
-        private FastLearner _fastLearner;
+        private MediumFastLearner _mediumFastLearner = new MediumFastLearner();
+        private FastLearner _fastLearner = new FastLearner();
 
         public SlowLearner slowLearner
         {
