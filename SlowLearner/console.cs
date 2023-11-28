@@ -46,5 +46,16 @@ namespace CSharpLearningPortal
             Console.WriteLine(" *******************************");
 
         }
+        public void MathOpration()
+        {
+            Console.Write("4 + 3 = ");
+            Console.WriteLine(4 + 3);
+            Console.Write("7 - 3 = ");
+            Console.WriteLine(7 -  3);
+            Console.Write("8 * 3 = ");
+            Console.WriteLine(8 * 3);
+            Console.Write("9 / 3 = ");
+            Console.WriteLine(9 / 3);
+        }
     }
 }
